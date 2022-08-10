@@ -68,7 +68,7 @@ But nevertheless it should have below basic supports:
    1. To get inside tink-cli:
       1. `vagrant ssh provisioner`
       2. `docker exec -it <tink-cli container name or id> sh`
-   2. `tink hardware get` -> get list of hardware configured. [tink_hardware_list.png](https://github.com/hitesh-infracloud/awesome-code/tinkerbell/dist/tink_hardware_list.png)
+   2. `tink hardware get` -> get list of hardware configured. [tink_hardware_list.png](https://github.com/hitesh-infracloud/awesome-code/tree/master/tinkerbell/dist/tink_hardware_list.png)
    3. `tink hardware mac <mac address> --details` -> get details of a particular h/w
       ```
       {
@@ -101,11 +101,11 @@ But nevertheless it should have below basic supports:
       "id": "f9f56dff-098a-4c5f-a51c-19ad35de85d4"
       }
       ```
-      [get_hardware_by_hardware-id.png](https://github.com/hitesh-infracloud/awesome-code/tinkerbell/dist/get_hardware_by_hardware-id.png)
-      [get_hardware_by_mac.png](https://github.com/hitesh-infracloud/awesome-code/tinkerbell/dist/get_hardware_by_mac.png)
-   4. `tink template get` -> to get list of templates. [get_all_templates.png](https://github.com/hitesh-infracloud/awesome-code/tinkerbell/dist/get_all_templates.png)
-   5. `tink template get <template id>`. [get_template_details.png](https://github.com/hitesh-infracloud/awesome-code/tinkerbell/dist/get_template_details.png)
-   6. `tink workflow get` [get_workflows.png](https://github.com/hitesh-infracloud/awesome-code/tinkerbell/dist/get_workflows.png)
+      [get_hardware_by_hardware-id.png](https://github.com/hitesh-infracloud/awesome-code/tree/master/tinkerbell/dist/get_hardware_by_hardware-id.png)
+      [get_hardware_by_mac.png](https://github.com/hitesh-infracloud/awesome-code/tree/master/tinkerbell/dist/get_hardware_by_mac.png)
+   4. `tink template get` -> to get list of templates. [get_all_templates.png](https://github.com/hitesh-infracloud/awesome-code/tree/master/tinkerbell/dist/get_all_templates.png)
+   5. `tink template get <template id>`. [get_template_details.png](https://github.com/hitesh-infracloud/awesome-code/tree/master/tinkerbell/dist/get_template_details.png)
+   6. `tink workflow get` [get_workflows.png](https://github.com/hitesh-infracloud/awesome-code/tree/master/tinkerbell/dist/get_workflows.png)
    7. `tink workflow create -t <template id> -r '{"device_id":"mac address"}'`
       ```
       version: "0.1"
@@ -140,4 +140,4 @@ But nevertheless it should have below basic supports:
          volumes:
          - /statedir:/statedir
       ```
-   8. `tink workflow gwt <workflow id>`. [get_workflow_by_id.png](https://github.com/hitesh-infracloud/awesome-code/tinkerbell/dist/get_workflow_by_id.png)
+   8. `tink workflow gwt <workflow id>`. [get_workflow_by_id.png](https://github.com/hitesh-infracloud/awesome-code/tree/master/tinkerbell/dist/get_workflow_by_id.png)
